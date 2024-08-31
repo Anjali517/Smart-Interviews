@@ -9,7 +9,7 @@ public class Solution {
         int ans=0;
         while(l<=h)
         {
-            int mid=l+(h-l)/2;
+            int mid=l+(h-l)/2; 
             if(valid(a,n,k,mid))
             {
                 ans=mid;
